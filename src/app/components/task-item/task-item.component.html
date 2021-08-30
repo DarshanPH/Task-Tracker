@@ -1,0 +1,7 @@
+<div class="space-between">
+  <h3>{{ task.text }}</h3>
+  <p>{{ task.day }}</p>
+  <div class="task">
+    <fa-icon [icon]="faTimes" [ngStyle]="{color: 'red'}" (click)="onDelete(task)"></fa-icon>
+  </div>
+</div>

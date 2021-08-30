@@ -1,2 +1,7 @@
-<div class="header"> <h3> {{ title }} </h3></div>
-<div class="container"> {{ title }} </div>
+<div class="header">
+  <h3>{{ title }}</h3>
+</div>
+<div class="container">
+  {{ title }}
+  <div><app-button text="Add" color="green" (btnclick)="ToggleAddTask()"></app-button></div>
+</div>

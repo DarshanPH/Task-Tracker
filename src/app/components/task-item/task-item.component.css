@@ -1,0 +1,12 @@
+.task{
+    padding: 10px;
+    text-align: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 150px;
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: rgb(218, 218, 218);
+}
