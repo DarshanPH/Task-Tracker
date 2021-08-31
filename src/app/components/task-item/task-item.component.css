@@ -3,10 +3,17 @@
     text-align: center;
 }
 
+.reminder{
+  background-color: green;
+  width: 5px;
+  height: 50px;
+}
+
 .space-between {
   display: flex;
   justify-content: space-between;
   margin: 10px 150px;
+  cursor: pointer;
   box-shadow: 1px 1px 1px 1px grey;
   background-color: rgb(218, 218, 218);
 }
